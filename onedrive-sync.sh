@@ -48,7 +48,6 @@ COMMON_FLAGS=(
   --progress
   --log-file=rclone.log
   --log-level=INFO
-  --exclude "Personal Vault/**"
   --filter-from filter.txt
   --onedrive-chunk-size 50M
   --multi-thread-streams 4
@@ -62,6 +61,7 @@ COMMON_FLAGS=(
   --onedrive-no-versions
   --ignore-size
   --modify-window=1m
+  --local-unicode-normalization
 )
 
 if [[ "$STRATEGY" == "A" ]]; then
@@ -80,6 +80,7 @@ CHECKERS=${INPUT_CHECKERS:-$DEFAULT_CHECKERS}
 echo ""
 
 if [[ "$STRATEGY" == "A" ]]; then
+    echo "Running with DELTA listing strategy..."
   COMMON_FLAGS+=(
     --transfers="${TRANSFERS}"
     --checkers="${CHECKERS}"
@@ -88,6 +89,7 @@ if [[ "$STRATEGY" == "A" ]]; then
     --tpslimit=25
   )
 else
+  echo "Running with CLASSIC listing strategy..."
   COMMON_FLAGS+=(
     --transfers="${TRANSFERS}"
     --checkers="${CHECKERS}"

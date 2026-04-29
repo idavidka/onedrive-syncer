@@ -1,6 +1,7 @@
+- /Personal Vault/**
 + */
 + /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/**
 + /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/**
 + /Képek/**
 #+ Képek - régi/**
-- *
+- **

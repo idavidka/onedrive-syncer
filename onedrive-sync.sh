@@ -29,6 +29,27 @@ if [ ! -d "$DEST" ]; then
 fi
 
 echo ""
+echo "Select filter file (or press Enter for no filter):"
+FILTER_FILES=()
+for f in filter*.txt; do
+  [ -f "$f" ] && FILTER_FILES+=("$f")
+done
+for i in "${!FILTER_FILES[@]}"; do
+  echo "$((i+1)) - ${FILTER_FILES[$i]}"
+done
+echo "0 - No filter"
+read -p "Enter choice [default: 0]: " FILTER_CHOICE
+FILTER_CHOICE=${FILTER_CHOICE:-0}
+FILTER_FLAG=()
+if [[ "$FILTER_CHOICE" =~ ^[1-9][0-9]*$ ]] && [ "$FILTER_CHOICE" -le "${#FILTER_FILES[@]}" ]; then
+  SELECTED_FILTER="${FILTER_FILES[$((FILTER_CHOICE-1))]}"
+  echo "Using filter: $SELECTED_FILTER"
+  FILTER_FLAG=(--filter-from "$SELECTED_FILTER")
+else
+  echo "No filter selected."
+fi
+
+echo ""
 echo "Select listing strategy:"
 echo "A - Delta (lists ALL files first ~8-10min, then transfers without interruption)"
 echo "B - Classic (starts transferring immediately, may hit rate limits)"
@@ -48,7 +69,7 @@ COMMON_FLAGS=(
   --progress
   --log-file=rclone.log
   --log-level=INFO
-  --filter-from filter-small.txt
+  "${FILTER_FLAG[@]}"
   --onedrive-chunk-size 25M
   --multi-thread-streams 4
   --multi-thread-cutoff 25M

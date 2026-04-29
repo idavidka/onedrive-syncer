@@ -63,17 +63,32 @@ COMMON_FLAGS=(
 )
 
 if [[ "${STRATEGY^^}" == "A" ]]; then
+  DEFAULT_TRANSFERS=16
+  DEFAULT_CHECKERS=4
+else
+  DEFAULT_TRANSFERS=8
+  DEFAULT_CHECKERS=16
+fi
+
+read -p "Transfers (parallel downloads) [default: ${DEFAULT_TRANSFERS}]: " INPUT_TRANSFERS
+read -p "Checkers (parallel metadata checks) [default: ${DEFAULT_CHECKERS}]: " INPUT_CHECKERS
+TRANSFERS=${INPUT_TRANSFERS:-$DEFAULT_TRANSFERS}
+CHECKERS=${INPUT_CHECKERS:-$DEFAULT_CHECKERS}
+
+echo ""
+
+if [[ "${STRATEGY^^}" == "A" ]]; then
   COMMON_FLAGS+=(
-    --transfers=16
-    --checkers=4
+    --transfers="${TRANSFERS}"
+    --checkers="${CHECKERS}"
     --fast-list
     --onedrive-delta
     --tpslimit=25
   )
 else
   COMMON_FLAGS+=(
-    --transfers=8
-    --checkers=16
+    --transfers="${TRANSFERS}"
+    --checkers="${CHECKERS}"
     --tpslimit=20
   )
 fi

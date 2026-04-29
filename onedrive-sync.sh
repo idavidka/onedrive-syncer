@@ -48,8 +48,8 @@ COMMON_FLAGS=(
   --progress
   --log-file=rclone.log
   --log-level=INFO
-  --filter-from filter.txt
-  --onedrive-chunk-size 50M
+  --filter-from filter-small.txt
+  --onedrive-chunk-size 25M
   --multi-thread-streams 4
   --multi-thread-cutoff 25M
   --buffer-size 32M

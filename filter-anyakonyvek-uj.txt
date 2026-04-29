@@ -1,6 +1,4 @@
 - /Personal Vault/**
-+ */
-+ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/*
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Adatbázisok_Könyvek_Kutatóknak/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Állampolgársági regiszterek/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Beszterce - Somkerék - REF AK 1861-1940 #693/**
@@ -18,7 +16,7 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Érköbölkút - REF AK 1755-1887/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Érkörtvélyes - REF AK 1768-1906/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Értarcsa  - REF AK 1820-1885 #671/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Érmihályfalva - REF AK 1769-1882/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Érmihályfalva - REF AK 1769-1882/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Feketetót - REF AK 1837-1880/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Hegyközcsatár - RK AK 1739-1870/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Bihar - Hegyközszentimre - 1745-1906/**
@@ -80,22 +78,22 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Betfalva - REF AK 1861-1894/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Bikafalva - REF AK 1848-1928/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Borszék - RK AK 1852-1897/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Bögöz - REF AK 1749-1886/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csehétfalva - UNIT AK 1845-1933/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Bögöz - REF AK 1749-1886/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csehétfalva - UNIT AK 1845-1933/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csekefalva - REF AK 1776-1903/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csekefalva - UNIT AK 1762-1893/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csíkcsicsó - RK AK 1783-1904/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csíktusnád - RK AK 1857-1905/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Csíktusnád - RK AK 1857-1905/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Ége - REF CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Etéd - REF AK 1802-1948/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Etéd - RK AK 1795-1898/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Ége - REF AK 1759-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Énlaka - UNI AK 1773-1933/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Énlaka - összeírás 1945/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Farcád - REF AK 1763-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Etéd - REF AK 1802-1948/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Etéd - RK AK 1795-1898/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Ége - REF AK 1759-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Énlaka - UNI AK 1773-1933/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Énlaka - összeírás 1945/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Farcád - REF AK 1763-1895/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Farkaslaka - RK AK 1813-1912/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Felsőboldogfalva - REF AK 1830-1949/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Felsősófalva - REF AK 1751-1912/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Felsőboldogfalva - REF AK 1830-1949/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Felsősófalva - REF AK 1751-1912/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Fenyéd - RK AK 1794-1936 EG/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Fiatfalva - REF AK 1855-1968/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Fiatfalva - REF AK 1871-1920 - AN/**
@@ -103,20 +101,20 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Fiatfalva - UNIT CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Firtosmartonos - UNIT AK 1785-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Firtosvaralja - UNIT CSK 1901-1931/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Firtosváralja - UNIT AK 1775-1940/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Firtosváralja - UNIT AK 1775-1940/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gagy - POLG ÖI 1945/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gagy - UNIT AK CSK ÖI 1852-1892/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gagy - UNIT AK CSK ÖI 1852-1892/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyepes - UNIT AK 1845-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyószárhegy - RK AK 1696-1896/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyoszarhegy - RK AK 1896-1949 bis/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóalfalu - RK AK 1714-1920/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóditró - RK AK 1867-1895/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyókilyénfalva - RK AK 1870-1891/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóremete - RK AK 1726-1908/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyószentmiklós - ÖK AK 1723-1917 COP -1945/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyótekerőpatak - RK AK 1801-1923MYS - GYFL/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyótölgyes - RK AK 1848-1895/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóújfalu - RK AK 1716-1912/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóalfalu - RK AK 1714-1920/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóditró - RK AK 1867-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyókilyénfalva - RK AK 1870-1891/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóremete - RK AK 1726-1908/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyószentmiklós - ÖK AK 1723-1917 COP -1945/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyótekerőpatak - RK AK 1801-1923MYS - GYFL/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyótölgyes - RK AK 1848-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Gyergyóújfalu - RK AK 1716-1912/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Hodgya - REF AK 1752-1895/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Hodgya - REF CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródalmás - GK CSK/**
@@ -126,25 +124,25 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentmárton - UNIT AK 1848-1949/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentmárton - UNIT CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - UNIT AK 1837-1911 BAPT 1950 DEF 1950 #86/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródalmás - UNIT AK 1718-1922 CSK 1929/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródjánosfalva - UNIT AK 1789-1895/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródkarácsonyfalva - UNIT AK 1779-2007/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródkeményfalva - UNIT AK 1825-1891/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF AK 1779-1950 - EG/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF AK 1779-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF CSK - EG/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentmárton - REF AK 1779-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - REF AK 1832-1886/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - UNIT AK 1837-1911/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - UNIT AK 1837-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpéter - UNIT AK 1792-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kadács - UNIT AK 1760-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródalmás - UNIT AK 1718-1922 CSK 1929/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródjánosfalva - UNIT AK 1789-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródkarácsonyfalva - UNIT AK 1779-2007/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródkeményfalva - UNIT AK 1825-1891/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF AK 1779-1950 - EG/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF AK 1779-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentlászló - REF CSK - EG/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentmárton - REF AK 1779-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - REF AK 1832-1886/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - UNIT AK 1837-1911/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpál - UNIT AK 1837-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Homoródszentpéter - UNIT AK 1792-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kadács - UNIT AK 1760-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kadicsfalva RK AK 1857-1895 DEF -1936  AC/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kaszonjakabfalva - RK AK 1783-1912/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kászonjakabfalva - RK AK 1783-1912/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kányád - REF AK 1769-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kányád - REF AK 1769-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kecset-Kisfalud - REF AK 1750-1905/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kénos - UNIT AK 1803-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kénos - UNIT AK 1803-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kisgalambfalva - REF AK 1791-1906/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kiskede Nagykede - UNIT AK 1842-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kissolymos - REF AK 1804-1894/**
@@ -153,46 +151,46 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Korond - RK AK 1716-1945/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Korond - UNIT AK 1762-1924 COP -1950 DEF -2016/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Korond - UNIT CSK 1882-1966/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kőrispatak - REF AK 1766-1895/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kőrispatak - UNIT AK 1833-1886 DEF -1895 COP -1905/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kőrispatak - REF AK 1766-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Kőrispatak - UNIT AK 1833-1886 DEF -1895 COP -1905/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Küsmöd - REF AK 1918-/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Küsmöd - REF AK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Küsmöd - REF CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Küsmőd - REF AK 1842-1914/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Küsmőd - REF AK 1842-1914/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lázárfalva - GK AK 1887-1938 - AN/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lókod - UNIT AK 1795-1876/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lövéte - EVG AK 1869-1895 - AC/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lövéte - RK AK 1773-1913 Bapt -1923 DEF -1954/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lókod - UNIT AK 1795-1876/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lövéte - EVG AK 1869-1895 - AC/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Lövéte - RK AK 1773-1913 Bapt -1923 DEF -1954/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Maroshévíz - Állampolg jegyz 1945 - EG/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Maroshévíz - RK AK 1870-1945 - EG/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Matisfalva - REF AK 1762-1894/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Matisfalva - REF CSK I-II/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Medesér - UNIT AK 1835-1894/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Medesér - UNIT AK 1835-1894/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Miklósfalva - CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Miklósfalva és Ábránfalva - CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Miklósfalva - REF AK 1890-1950 CSK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Miklósfalva - REF AK 1890-1950 CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Nagygalambfalva - REF AK 1745-1952/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Nagykede Kiskede - UNIT AK 1842-1911/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Nagysolymos - REF AK 1759-1894/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Nagysolymos - UNIT AK 1774-1894/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Ocfalva - REF AK 1832-1895/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Ocfalva - REF CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Oklánd - UNIT AK 1832-1969/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Oklánd - UNIT AK 1832-1969/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Oroszhegy - RK AK 1857-2007/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Parajd -  REF AK 1788-1917/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Parajd - RK AK 1777-1895/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Patakfalva - REF AK 1764-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Petek - REF AK 1757-1938 CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Recsenyéd  - UNIT CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Recsenyéd - UNIT AK 1788-1906/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Recsenyéd  - UNIT CSK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Recsenyéd - UNIT AK 1788-1906/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Rugonfalva - REF AK 1777-1894/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Sándortelke - REF AK 1803-1894/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siklód - REF AK 1762-1901/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Sándortelke - REF AK 1803-1894/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siklód - REF AK 1762-1901/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - REF CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - UNIT CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - REF AK 1790-1935/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - UNIT AK 1864-1934/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Sükő - REF AK 1787-1892/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - REF AK 1790-1935/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Siménfalva - UNIT AK 1864-1934/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Sükő - REF AK 1787-1892/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - ÁLL JZ 46-64/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - UNIT CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna - REF CSK/**
@@ -203,44 +201,44 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyudvarhely - RK AK 1689-1902 - EG/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyudvarhely - RK ÖI 1785/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szekelyudvarhely - UNIT AK 1872-1912/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentábrahám - UNIT AK 1758-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentábrahám - UNIT AK 1758-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentegyháza - RK AK 1857-1895 - EG/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szenterzsébet - GK AK 1813-1901/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentlélek - RK AK 1719-1916 - AN #145/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentlélek - RK AK 1719-1881 - EG/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentlélek - RK AK 1720-1895 - AN/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelydálya - REF AK 1772-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyderzs - UNIT AK 1798-1906/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyderzs - UNIT CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - REF AK 1742-1915/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - RK AK 1767-1895/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - UNIT AK 1803-1991/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelylengyelfalva - RK AK 1721-1906/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna -  REF AK 1775-1905/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna - POLG AK 1895-1906/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna - UNIT AK 1785-1915/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelypálfalva - RK AK 1747-1939/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenterzsébet - REF AK 1768-1918/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenterzsébet - REF CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentlélek - RK AK 1719-1923 - AN/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentmihály - UNIT AK 1761-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentmiklós - UNIT AK 1793-1949/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenttamás - RK AK 1767-1917/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyudvarhely - RK AK 1844-1923 - GYF/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentlélek - RK AK 1719-1881 - EG/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Szentlélek - RK AK 1720-1895 - AN/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelydálya - REF AK 1772-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyderzs - UNIT AK 1798-1906/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyderzs - UNIT CSK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - REF AK 1742-1915/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - RK AK 1767-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelykeresztúr - UNIT AK 1803-1991/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelylengyelfalva - RK AK 1721-1906/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna -  REF AK 1775-1905/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna - POLG AK 1895-1906/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelymuzsna - UNIT AK 1785-1915/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelypálfalva - RK AK 1747-1939/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenterzsébet - REF AK 1768-1918/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenterzsébet - REF CSK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentlélek - RK AK 1719-1923 - AN/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentmihály - UNIT AK 1761-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszentmiklós - UNIT AK 1793-1949/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyszenttamás - RK AK 1767-1917/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Székelyudvarhely - RK AK 1844-1923 - GYF/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Tarcsafalva - UNIT AK 1787-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Tekerőpatak - RK AK 1801-1923MYS - GYFL #74/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Tekerőpatak - RK AK 1857-1912/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Telekfalva - REF AK 1783-1889/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Telekfalva - REF CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Újszékely - REF AK 1778-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Újszékely - UNIT AK 1815-1914/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Újszékely - REF AK 1778-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Újszékely - UNIT AK 1815-1914/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Vargyas - UNIT AK 1750-1943/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Vargyas - UNIT CSK/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Vágás, Béta, Dobó - RK AK 1769-1899/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Városfalva - UNIT AK 1781-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Vágás, Béta, Dobó - RK AK 1769-1899/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Városfalva - UNIT AK 1781-1950/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hargita - Zetelaka - RK AK 1705-1906/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad  - Marosillye -  RK AK 1807-1950/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad - Déva - REF AK 1903-2007 CSAK K/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad - Déva - REF AK 1903-2007 CSAK K/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad - Hátszeg - REF AK 1823-1901 COP  -1916 DEF -1907 #674/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad - Kisbarcsa - REF AK 1887-1950 #675/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Hunyad - Nagyrapolt - REF AK 1811-1950/**
@@ -450,7 +448,7 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Cserefalva - REF CSK 1985-2024 - DEF AK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csittszentiván - GK AK  1824-1893/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csittszentiván - REF AK 1773-1891/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csíkfalva Jobbágyfalva - REF AK 1776-1910/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csíkfalva Jobbágyfalva - REF AK 1776-1910/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csókfalva  - UNIT AK - Anyk Unitarius-Leveltar-Kolozsvar--191/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csókfalva - CSK/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Maros - Csókfalva - REF AK 1883-1910 ket #560/**
@@ -703,4 +701,6 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Máslak - REF AK 1771-1895MYS COP 1897 BAPT 1905 - Blumenthal/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Perjámos - RK AK 1755-1865 #773/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Végvár - REF AK 1794-1923/**
++ */
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/*
 - **

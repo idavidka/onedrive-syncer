@@ -1,6 +1,4 @@
 - /Personal Vault/**
-+ */
-+ /Képek - régi/*
 - /Képek - régi/100. hónapforduló/**
 - /Képek - régi/4-es Metró átadás 2014-03-28/**
 - /Képek - régi/4-es Metró, Tétényi út 2013-03-02/**
@@ -152,4 +150,6 @@
 - /Képek - régi/Zumba fellépés, Previ 2014-05-30/**
 - /Képek - régi/Zumba party 2013-12-01/**
 - /Képek - régi/Zumba party 2014-01-11/**
++ */
++ /Képek - régi/*
 - **

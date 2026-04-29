@@ -1,14 +1,12 @@
 - /Personal Vault/**
-+ */
-+ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/*
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ada/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alap/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Albertirsa/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alsószentiván/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - RK AK 1702-1901 BAPT-1895 DEF-1899 - AC/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad vártemplom - RK AK 1705-1891 -AC/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Aradszentmárton - RK AK 1750-1910/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad vártemplom - RK AK 1705-1891 -AC/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Aradszentmárton - RK AK 1750-1910/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Kisiratos - RK AK 1852-1869 BAPT - AC/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Lippa - RK AK 1719-1914/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Temeskeresztes - RK AK 1783-1915/**
@@ -71,7 +69,7 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Helemba/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hirip/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Horgos/**
-- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hunyad - Hátszeg -  RK AK 1857-1900 COP -1908  DEF 1888-1916 #673/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hunyad - Hátszeg -  RK AK 1857-1900 COP -1908  DEF 1888-1916 #673/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ipolydamásd/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ipolytölgyes/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Izbugya-Hosszúmező/**
@@ -104,4 +102,6 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Torbágy/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Vámosmikola/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Zenta/**
++ */
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/*
 - **

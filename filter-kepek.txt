@@ -1,6 +1,4 @@
 - /Personal Vault/**
-+ */
-+ /Képek/*
 - /Képek/10 éves osztálytalálkozó 2014-08-29/**
 - /Képek/15 éves osztálytalálkozó 2019-09-07/**
 - /Képek/2017-2022 Évről-évre nyakbaülős/**
@@ -117,7 +115,7 @@
 - /Képek/Dávid 27. szülinap 2017-03-07/**
 - /Képek/Dávid 29. szülinap 2019-03-07/**
 - /Képek/Dávid névnap 2018-12-30/**
-- /Képek/Dávid 30. szülinap 2020-03-07/**
+- /Képek/Dávid 30. szülinap 2020-03-07/**
 - /Képek/Dédi háza, Alsószentiván 2012-07-10/**
 - /Képek/Délutáni pihi anyánál 2018-04-14/**
 - /Képek/Dóri és Árpi esküvő 2018-05-26/**
@@ -271,7 +269,7 @@
 - /Képek/Karácsonyi készülődés 2018/**
 - /Képek/Karácsonyi készülődés 2019/**
 - /Képek/Karácsonyi modelkedés 2016-12-26/**
-- /Képek/Karácsonyi fotózás 2018-11-24/**
+- /Képek/Karácsonyi fotózás 2018-11-24/**
 - /Képek/Kassa 2014-12-21/**
 - /Képek/Katica csoport felújítás 2019-07-06/**
 - /Képek/Katiéknál 2019-05-25/**
@@ -535,4 +533,6 @@
 - /Képek/Zsófi szalagavató 2009-11-08/**
 - /Képek/Zsuzsi és Gömi esküvője 2017-05-20/**
 - /Képek/_Előhivatni 2019-08-03/**
++ */
++ /Képek/*
 - **

@@ -39,18 +39,24 @@ echo ""
 
 COMMON_FLAGS=(
   --progress
-  --transfers=16
-  --checkers=32
+  --transfers=32
+  --checkers=64
   --fast-list
   --log-file=rclone.log
   --log-level=INFO
   --exclude "Personal Vault/**"
   --filter-from filter.txt
-  --tpslimit=10
-  --onedrive-chunk-size 250M
-  --multi-thread-streams 4
-  --multi-thread-cutoff 50M
-  --buffer-size 256M
+  --tpslimit=50
+  --onedrive-chunk-size 50M
+  --multi-thread-streams 8
+  --multi-thread-cutoff 25M
+  --buffer-size 128M
+  --timeout=60s
+  --contimeout=30s
+  --retries=10
+  --retries-sleep=5s
+  --low-level-retries=10
+  --onedrive-no-versions
 )
 
 # 4. Execute based on mode

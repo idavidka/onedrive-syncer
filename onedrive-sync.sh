@@ -61,6 +61,7 @@ COMMON_FLAGS=(
   --low-level-retries=10
   --onedrive-no-versions
   --ignore-size
+  --modify-window=1m
 )
 
 if [[ "$STRATEGY" == "A" ]]; then

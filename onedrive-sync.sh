@@ -118,6 +118,19 @@ else
   )
 fi
 
+# Log selected options before run
+LOG_FILE="rclone.log"
+{
+  echo "================================================================"
+  echo "Started:    $(date '+%Y-%m-%d %H:%M:%S')"
+  echo "Filter:     ${SELECTED_FILTER:-none}"
+  echo "Strategy:   ${STRATEGY}"
+  echo "Mode:       ${MODE} ($([ "$MODE" == "1" ] && echo "Mirror/sync" || ([ "$MODE" == "2" ] && echo "Safe copy" || echo "Force re-download")))"
+  echo "Transfers:  ${TRANSFERS}"
+  echo "Checkers:   ${CHECKERS}"
+  echo "================================================================"
+} >> "$LOG_FILE"
+
 # 4. Execute based on mode
 if [ "$MODE" == "1" ]; then
     echo "Running MIRROR mode (sync)..."

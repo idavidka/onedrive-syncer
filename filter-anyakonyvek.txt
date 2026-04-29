@@ -1,0 +1,107 @@
+- /Personal Vault/**
++ */
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/*
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ada/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alap/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Albertirsa/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alsószentiván/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - RK AK 1702-1901 BAPT-1895 DEF-1899 - AC/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad vártemplom - RK AK 1705-1891 -AC/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Aradszentmárton - RK AK 1750-1910/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Kisiratos - RK AK 1852-1869 BAPT - AC/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Lippa - RK AK 1719-1914/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Temeskeresztes - RK AK 1783-1915/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bácsalmás/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Beszterce - Retteg - REF AK 1785-1904/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Beszterce - Sajóudvarhely - REF AK 1793-1861/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Beszterce - Teke - REF AK 1792-1887/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bia/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Albis - REF AK 1746-1900/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Ant - REF AK 1768-1867/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Asszonyvására - REF AK 1769-1876/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Belényes - REF AK 1819-1872/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Belényes - RK AK 1713-1870/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Berettyószéplak - REF AK 1751-1873/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Bihar - RK AK 1827-1914/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Biharpüspöki - REF AK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Biharpüspöki - RK AK 1740-1938/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Kisszántó - REF AK 1775-1919/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyszanto - gk anyakv 1859-1913/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyszanto - ref anyakv 1839-1918/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyvárad - EVG AK 1801-1915/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyvárad - GK AK 1779-1918 COP 1812- BAPT 1783-/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyvárad - REF AK 1784-1908/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Bihar - Nagyvárad - RK AK 1727-1891MYS - indexed/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Brassó - Fogaras - REF AK 1663-1859/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Brassó - Fogaras - RK AK 1821-1920 - Peter Schubert/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Brassó - Nagymoha - REF AK 1820-2014/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Brassó - Olthévíz - REF AK 1830-1916/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csanálos/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkdelne/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkkarcfalva/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkkozmás/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkmadaras/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkrákos/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíksomlyó/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentdomokos (Görög Katolikus)/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentdomokos/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentimre/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentkirály/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentmárton/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentmiklós/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszentsimon/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszenttamás/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Csíkszereda/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Déva/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Dunaföldvár/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Erdőd/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Etyek/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Gyergyószentmiklós/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hajós/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Bágy - REF AK 1761-1950/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Balánbánya - RK AK 1802-1895 - AN/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Csíkménaság - RK AK 1717-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Csíkmindszent - RK AK 1718-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Csíkszentgyörgy - RK AK 1694-1895/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Csíkszentmihály - RK AK 1857-1897/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Csíkszépvíz - ÖK AK 1770-1912/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Gyimesbükk - RK AK 1786-1900/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hargita - Máréfalva - RK/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Helemba/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hirip/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Horgos/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Hunyad - Hátszeg -  RK AK 1857-1900 COP -1908  DEF 1888-1916 #673/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ipolydamásd/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Ipolytölgyes/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Izbugya-Hosszúmező/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Kálmánd/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Kaplony/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Királydaróc/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Krasznabéltek/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Krasznaterebes/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Kunbaja/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Magyarkanizsa/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Márianosztra/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Martonos/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Mezőpetri/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Monor/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Nagykároly/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Nagylak (Evangelikus)/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Nagylak/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Nagymajtény/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Paks/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szabadka/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szaniszló/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szatmár - Nagykároly - REF AK 1801-1893 KER 1728 KER 1904/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szatmár - Nagymajtény Gilvács - POLG AK 1895-1906 - RL/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szeben - Küküllőalmás - REF AK 1743-1872/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szeben - Nagyszeben - POLG AK 1899-1906/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Szob/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Tápiószentmárton/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Tasnád/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Temes - Nagybodófalva - ref ak 1892-1913/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Torbágy/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Vámosmikola/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Zenta/**
+- **

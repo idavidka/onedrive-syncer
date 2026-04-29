@@ -29,6 +29,12 @@ if [ ! -d "$DEST" ]; then
 fi
 
 echo ""
+echo "Select listing strategy:"
+echo "A - Delta (lists ALL files first ~8-10min, then transfers without interruption)"
+echo "B - Classic (starts transferring immediately, may hit rate limits)"
+read -p "Enter choice (A/B): " STRATEGY
+
+echo ""
 echo "Select mode:"
 echo "1 - Mirror (sync: local will match cloud, local deletions allowed)"
 echo "2 - Safe copy (no deletions, only downloads)"
@@ -39,15 +45,10 @@ echo ""
 
 COMMON_FLAGS=(
   --progress
-  --transfers=16
-  --checkers=4
-  --fast-list
-  --onedrive-delta
   --log-file=rclone.log
   --log-level=INFO
   --exclude "Personal Vault/**"
   --filter-from filter.txt
-  --tpslimit=25
   --onedrive-chunk-size 50M
   --multi-thread-streams 4
   --multi-thread-cutoff 25M
@@ -60,6 +61,22 @@ COMMON_FLAGS=(
   --onedrive-no-versions
   --ignore-size
 )
+
+if [[ "${STRATEGY^^}" == "A" ]]; then
+  COMMON_FLAGS+=(
+    --transfers=16
+    --checkers=4
+    --fast-list
+    --onedrive-delta
+    --tpslimit=25
+  )
+else
+  COMMON_FLAGS+=(
+    --transfers=8
+    --checkers=16
+    --tpslimit=20
+  )
+fi
 
 # 4. Execute based on mode
 if [ "$MODE" == "1" ]; then

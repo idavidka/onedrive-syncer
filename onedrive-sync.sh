@@ -40,8 +40,9 @@ echo ""
 COMMON_FLAGS=(
   --progress
   --transfers=8
-  --checkers=16
+  --checkers=4
   --fast-list
+  --onedrive-delta
   --log-file=rclone.log
   --log-level=INFO
   --exclude "Personal Vault/**"
@@ -51,12 +52,13 @@ COMMON_FLAGS=(
   --multi-thread-streams 4
   --multi-thread-cutoff 25M
   --buffer-size 32M
-  --timeout=30s
+  --timeout=60s
   --contimeout=30s
   --retries=10
   --retries-sleep=15s
   --low-level-retries=10
   --onedrive-no-versions
+  --ignore-size
 )
 
 # 4. Execute based on mode
@@ -73,6 +75,7 @@ elif [ "$MODE" == "3" ]; then
     rclone copy "$REMOTE_NAME": "$DEST" \
         "${COMMON_FLAGS[@]}" \
         --ignore-existing=false \
+        --ignore-size=false \
         --checksum
 
 else

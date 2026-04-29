@@ -33,6 +33,7 @@ echo "Select listing strategy:"
 echo "A - Delta (lists ALL files first ~8-10min, then transfers without interruption)"
 echo "B - Classic (starts transferring immediately, may hit rate limits)"
 read -p "Enter choice (A/B): " STRATEGY
+STRATEGY=$(echo "$STRATEGY" | tr '[:lower:]' '[:upper:]')
 
 echo ""
 echo "Select mode:"
@@ -62,7 +63,7 @@ COMMON_FLAGS=(
   --ignore-size
 )
 
-if [[ "${STRATEGY^^}" == "A" ]]; then
+if [[ "$STRATEGY" == "A" ]]; then
   DEFAULT_TRANSFERS=16
   DEFAULT_CHECKERS=4
 else
@@ -77,7 +78,7 @@ CHECKERS=${INPUT_CHECKERS:-$DEFAULT_CHECKERS}
 
 echo ""
 
-if [[ "${STRATEGY^^}" == "A" ]]; then
+if [[ "$STRATEGY" == "A" ]]; then
   COMMON_FLAGS+=(
     --transfers="${TRANSFERS}"
     --checkers="${CHECKERS}"

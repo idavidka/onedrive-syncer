@@ -39,7 +39,7 @@ echo ""
 
 COMMON_FLAGS=(
   --progress
-  --transfers=8
+  --transfers=16
   --checkers=4
   --fast-list
   --onedrive-delta
@@ -47,7 +47,7 @@ COMMON_FLAGS=(
   --log-level=INFO
   --exclude "Personal Vault/**"
   --filter-from filter.txt
-  --tpslimit=20
+  --tpslimit=25
   --onedrive-chunk-size 50M
   --multi-thread-streams 4
   --multi-thread-cutoff 25M

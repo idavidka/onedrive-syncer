@@ -51,7 +51,7 @@ COMMON_FLAGS=(
   --multi-thread-streams 8
   --multi-thread-cutoff 25M
   --buffer-size 128M
-  --timeout=60s
+  --timeout=30s
   --contimeout=30s
   --retries=10
   --retries-sleep=5s

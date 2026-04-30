@@ -1,100 +1,100 @@
 # rclone Filter Files
 
-## Összefoglalás
+## Overview
 
-Az OneDrive-on 4 nagy mappacsoportot kezelünk szeparáltan, mert ezek sok GB-ot tesznek ki.
-A filterek meghatározzák, hogy az adott rclone futás mit szinkronizáljon.
+There are 4 large folder groups on OneDrive that are managed separately due to their size.
+Filters control what each rclone run will synchronize.
 
-A script mindig `rclone copy` (Safe) vagy `rclone sync` (Mirror) módban fut.
-A `rclone copy` csak letölt, nem töröl. A `rclone sync` tükröz — de a filter által **kizárt mappákat nem érinti**.
+The script runs in either `rclone copy` (Safe) or `rclone sync` (Mirror) mode.
+`rclone copy` only downloads, never deletes. `rclone sync` mirrors — but folders **excluded by the filter are left completely untouched**.
 
 ---
 
 ## filter-small.txt
 
-**Célja:** Mindent szinkronizál, kivéve a 4 nagy mappát.
+**Purpose:** Syncs everything except the 4 large folder groups.
 
-Kizárja:
+Excludes:
 - `/Képek/**`
 - `/Képek - régi/**`
 - `/Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/**`
 - `/Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/**`
 
-Hasznos ha: a mindennapi szinkronizáláshoz (dokumentumok, egyéb fájlok), a nagy képek és anyakönyvek nélkül.
+Use when: doing everyday sync (documents, misc files) without the large photo and register folders.
 
 ---
 
 ## filter-kepek.txt
 
-**Célja:** Szelektív szinkronizálás a `/Képek` mappán belül — almappánként engedélyezhető.
+**Purpose:** Selective sync inside `/Képek` — subfolders can be enabled one at a time.
 
-- Alapból **minden almappa ki van zárva** (`-`)
-- Egy almappa engedélyezéséhez a két `-` sort kell `+`-ra cserélni indítás előtt
-- Így csak az engedélyezett almappák töltődnek le
+- By default **every subfolder is excluded** (`-`)
+- To enable a subfolder: change its two `-` lines to `+` before starting the run
+- Only enabled subfolders will be downloaded
 
-Hasznos ha: csak bizonyos képalbumokat akarsz letölteni lépésről lépésre.
+Use when: you want to download specific photo albums step by step.
 
 ---
 
 ## filter-kepek-regi.txt
 
-**Célja:** Ugyanaz mint `filter-kepek.txt`, de a `/Képek - régi` mappára.
+**Purpose:** Same as `filter-kepek.txt`, but for the `/Képek - régi` folder.
 
 ---
 
 ## filter-anyakonyvek.txt
 
-**Célja:** Szelektív szinkronizálás a `/Dokumentumok/Családfa/Dokumentumok/Anyakönyvek` mappán belül.
+**Purpose:** Selective sync inside `/Dokumentumok/Családfa/Dokumentumok/Anyakönyvek`.
 
-- Alapból **minden almappa ki van zárva** (`-`)
-- Egy almappa engedélyezéséhez a két `-` sort kell `+`-ra cserélni indítás előtt
+- By default **every subfolder is excluded** (`-`)
+- To enable a subfolder: change its two `-` lines to `+` before starting the run
 
-Hasznos ha: egy-egy helység anyakönyveit akarod letölteni.
+Use when: you want to download registers for specific localities one at a time.
 
 ---
 
 ## filter-anyakonyvek-uj.txt
 
-**Célja:** Ugyanaz mint `filter-anyakonyvek.txt`, de az `Anyakönyvek új` mappára.
+**Purpose:** Same as `filter-anyakonyvek.txt`, but for the `Anyakönyvek új` folder.
 
 ---
 
 ## filter-kepek-all.txt
 
-**Célja:** A teljes `/Képek` mappát szinkronizálja — minden almappát egyszerre.
+**Purpose:** Syncs the entire `/Képek` folder — all subfolders at once.
 
-Hasznos ha: az egész Képek mappát le akarod tölteni egy menetben.
+Use when: you want to download the whole photo library in one run.
 
 ---
 
 ## filter-kepek-regi-all.txt
 
-**Célja:** A teljes `/Képek - régi` mappát szinkronizálja.
+**Purpose:** Syncs the entire `/Képek - régi` folder.
 
 ---
 
 ## filter-anyakonyvek-all.txt
 
-**Célja:** A teljes `Anyakönyvek` mappát szinkronizálja — minden almappát egyszerre.
+**Purpose:** Syncs the entire `Anyakönyvek` folder — all subfolders at once.
 
 ---
 
 ## filter-anyakonyvek-uj-all.txt
 
-**Célja:** A teljes `Anyakönyvek új` mappát szinkronizálja.
+**Purpose:** Syncs the entire `Anyakönyvek új` folder.
 
 ---
 
-## Filter nélkül (No filter)
+## No filter
 
-Az egész OneDrive-ot szinkronizálja. A 4 nagy mappa is belekerül.
-Csak akkor érdemes, ha valóban mindent akarod — nagyon lassú a listing fázis.
+Syncs the entire OneDrive including all 4 large folder groups.
+Only use this if you truly want everything — the listing phase will be very slow.
 
 ---
 
-## Technikai megjegyzések
+## Technical notes
 
-- Minden filter kizárja a `/Personal Vault/**` mappát (OneDrive titkosított tároló)
-- A `+ */` traversal helyett explicit útvonal-lépések vannak (`+ /Dokumentumok/`, stb.) — ez gyorsabb, mert rclone nem jár be felesleges mappákat
-- A fájlok NFC Unicode normalizálással vannak írva (macOS NFD vs. OneDrive NFC kompatibilitás)
-- A per-almappa filterek (`filter-kepek.txt`, `filter-anyakonyvek.txt` stb.) láblécében `+ /RootMappa/*` engedélyezi a root szintű fájlokat, ha vannak
+- All filters exclude `/Personal Vault/**` (OneDrive encrypted vault)
+- Instead of `+ */` traversal, explicit path steps are used (e.g. `+ /Dokumentumok/`) — this is faster because rclone does not walk unrelated directories
+- Filter files are written with NFC Unicode normalization (macOS uses NFD, OneDrive uses NFC)
+- The per-subfolder filters (`filter-kepek.txt`, `filter-anyakonyvek.txt` etc.) have `+ /RootFolder/*` in the footer to allow any root-level files if present

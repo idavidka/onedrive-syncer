@@ -21,13 +21,6 @@ then
     rclone config
 fi
 
-# 3. Check destination
-if [ ! -d "$DEST" ]; then
-    echo "Error: destination path does not exist:"
-    echo "$DEST"
-    exit 1
-fi
-
 # Interactive remote folder browser
 # Sets INTERACTIVE_PATH to the chosen remote path (empty = root)
 select_remote_folder() {
@@ -109,7 +102,7 @@ LAST_RUN_FILE="last-run.conf"
 USE_LAST_RUN=false
 INTERACTIVE_PATH=""
 if [ -f "$LAST_RUN_FILE" ]; then
-  LR_FILTER="" LR_INTERACTIVE_PATH="" LR_STRATEGY="" LR_MODE="" LR_TRANSFERS="" LR_CHECKERS=""
+  LR_FILTER="" LR_INTERACTIVE_PATH="" LR_STRATEGY="" LR_MODE="" LR_TRANSFERS="" LR_CHECKERS="" LR_DEST=""
   while IFS='=' read -r key val; do
     val="${val%\"}"
     val="${val#\"}"
@@ -120,6 +113,7 @@ if [ -f "$LAST_RUN_FILE" ]; then
       MODE)             LR_MODE="$val" ;;
       TRANSFERS)        LR_TRANSFERS="$val" ;;
       CHECKERS)         LR_CHECKERS="$val" ;;
+      DEST)             LR_DEST="$val" ;;
     esac
   done < "$LAST_RUN_FILE"
   echo ""
@@ -129,6 +123,7 @@ if [ -f "$LAST_RUN_FILE" ]; then
   else
     echo "  Filter:    ${LR_FILTER:-none}"
   fi
+  echo "  Dest:      ${LR_DEST:-$DEST}"
   echo "  Strategy:  $LR_STRATEGY"
   echo "  Mode:      $LR_MODE"
   echo "  Transfers: $LR_TRANSFERS"
@@ -142,6 +137,7 @@ if [ -f "$LAST_RUN_FILE" ]; then
     MODE="$LR_MODE"
     TRANSFERS="$LR_TRANSFERS"
     CHECKERS="$LR_CHECKERS"
+    [ -n "$LR_DEST" ] && DEST="$LR_DEST"
     if [ -n "$INTERACTIVE_PATH" ]; then
       SELECTED_FILTER=$(build_interactive_filter "$INTERACTIVE_PATH")
       echo "Rebuilt interactive filter for: /${INTERACTIVE_PATH:-(root)}"
@@ -213,12 +209,24 @@ if [ "$USE_LAST_RUN" = false ]; then
   read -p "Checkers (parallel metadata checks) [default: ${DEFAULT_CHECKERS}]: " INPUT_CHECKERS
   TRANSFERS=${INPUT_TRANSFERS:-$DEFAULT_TRANSFERS}
   CHECKERS=${INPUT_CHECKERS:-$DEFAULT_CHECKERS}
+
+  echo ""
+  read -p "Destination folder [default: ${DEST}]: " INPUT_DEST
+  DEST=${INPUT_DEST:-$DEST}
+fi
+
+# 3. Check destination
+if [ ! -d "$DEST" ]; then
+  echo "Error: destination path does not exist:"
+  echo "$DEST"
+  exit 1
 fi
 
 # Save settings for next run
 {
   echo "SELECTED_FILTER=\"${SELECTED_FILTER}\""
   echo "INTERACTIVE_PATH=\"${INTERACTIVE_PATH}\""
+  echo "DEST=\"${DEST}\""
   echo "STRATEGY=\"${STRATEGY}\""
   echo "MODE=\"${MODE}\""
   echo "TRANSFERS=\"${TRANSFERS}\""

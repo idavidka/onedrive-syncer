@@ -21,6 +21,18 @@ then
     rclone config
 fi
 
+# Spinner helper: show_spinner PID [message]
+show_spinner() {
+  local pid=$1 msg="${2:-Loading...}"
+  local spin='|/-\' i=0
+  while kill -0 "$pid" 2>/dev/null; do
+    printf "\r  %s %s " "$msg" "${spin:$((i % 4)):1}"
+    sleep 0.1
+    i=$(( i + 1 ))
+  done
+  printf "\r\033[K"
+}
+
 # Interactive remote folder browser
 # Sets INTERACTIVE_PATH to the chosen remote path (empty = root)
 select_remote_folder() {
@@ -33,11 +45,24 @@ select_remote_folder() {
       echo "  Location: /${current_path}"
     fi
     echo ""
+    local tmp_listing
+    tmp_listing=$(mktemp)
+    rclone lsf --dirs-only "${REMOTE_NAME}:${current_path}" > "$tmp_listing" 2>/dev/null &
+    local rclone_pid=$!
+    show_spinner "$rclone_pid" "Loading folders..."
+    wait "$rclone_pid"
+    local rclone_exit=$?
     local dirs=()
     while IFS= read -r line; do
       line="${line%/}"
       [ -n "$line" ] && dirs+=("$line")
-    done < <(rclone lsf --dirs-only "${REMOTE_NAME}:${current_path}" 2>/dev/null)
+    done < "$tmp_listing"
+    rm -f "$tmp_listing"
+    if [ $rclone_exit -ne 0 ]; then
+      echo "  [!] Could not list folders (network/connection error)"
+    elif [ ${#dirs[@]} -eq 0 ]; then
+      echo "  (no subfolders in this location)"
+    fi
     echo "  0 - [Sync this folder]"
     for i in "${!dirs[@]}"; do
       printf "  %d - %s\n" "$((i+1))" "${dirs[$i]}"
@@ -74,7 +99,7 @@ select_remote_folder() {
 # Build a temporary rclone filter file for the given remote path
 build_interactive_filter() {
   local path="$1"
-  local tmp_filter="/tmp/rclone-interactive-filter.txt"
+  local tmp_filter="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/filter-interactive.txt"
   : > "$tmp_filter"
   echo "- /Personal Vault/**" >> "$tmp_filter"
   if [ -n "$path" ]; then
@@ -286,7 +311,12 @@ LOG_FILE="rclone.log"
 {
   echo "================================================================"
   echo "Started:    $(date '+%Y-%m-%d %H:%M:%S')"
-  echo "Filter:     ${SELECTED_FILTER:-none}"
+  if [ -n "$INTERACTIVE_PATH" ]; then
+    echo "Filter:     [Interactive] /${INTERACTIVE_PATH}"
+  else
+    echo "Filter:     ${SELECTED_FILTER:-none}"
+  fi
+  echo "Dest:       ${DEST}"
   echo "Strategy:   ${STRATEGY}"
   echo "Mode:       ${MODE} ($([ "$MODE" == "1" ] && echo "Mirror/sync" || ([ "$MODE" == "2" ] && echo "Safe copy" || echo "Force re-download")))"
   echo "Transfers:  ${TRANSFERS}"

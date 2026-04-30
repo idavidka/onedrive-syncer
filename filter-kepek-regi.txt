@@ -301,6 +301,6 @@
 - /Képek - régi/Zumba party 2013-12-01/**
 - /Képek - régi/Zumba party 2014-01-11/
 - /Képek - régi/Zumba party 2014-01-11/**
-+ */
++ /Képek - régi/
 + /Képek - régi/*
 - **

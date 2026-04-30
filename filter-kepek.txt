@@ -1067,6 +1067,6 @@
 - /Képek/Zsuzsi és Gömi esküvője 2017-05-20/**
 - /Képek/_Előhivatni 2019-08-03/
 - /Képek/_Előhivatni 2019-08-03/**
-+ */
++ /Képek/
 + /Képek/*
 - **

@@ -1403,6 +1403,9 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Perjámos - RK AK 1755-1865 #773/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Végvár - REF AK 1794-1923/
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/Temes - Végvár - REF AK 1794-1923/**
-+ */
++ /Dokumentumok/
++ /Dokumentumok/Családfa/
++ /Dokumentumok/Családfa/Dokumentumok/
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/
 + /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek új/*
 - **

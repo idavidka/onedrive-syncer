@@ -1,5 +1,4 @@
 - /Personal Vault/**
-+ */
 + /Képek - régi/
 + /Képek - régi/**
 - **

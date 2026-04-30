@@ -7,8 +7,8 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Albertirsa/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alsószentiván/
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Alsószentiván/**
-+ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/
-+ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/**
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/
+- /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - REF AK 1829-1880/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - RK AK 1702-1901 BAPT-1895 DEF-1899 - AC/
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad - RK AK 1702-1901 BAPT-1895 DEF-1899 - AC/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Arad - Arad vártemplom - RK AK 1705-1891 -AC/
@@ -205,6 +205,9 @@
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Vámosmikola/**
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Zenta/
 - /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/Zenta/**
-+ */
++ /Dokumentumok/
++ /Dokumentumok/Családfa/
++ /Dokumentumok/Családfa/Dokumentumok/
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/
 + /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/*
 - **

@@ -328,10 +328,12 @@ LOG_FILE="rclone.log"
 if [ "$MODE" == "1" ]; then
     echo "Running MIRROR mode (sync)..."
     rclone sync "$REMOTE_NAME": "$DEST" "${COMMON_FLAGS[@]}"
+    RCLONE_EXIT=$?
 
 elif [ "$MODE" == "2" ]; then
     echo "Running SAFE COPY mode..."
     rclone copy "$REMOTE_NAME": "$DEST" "${COMMON_FLAGS[@]}"
+    RCLONE_EXIT=$?
 
 elif [ "$MODE" == "3" ]; then
     echo "Running FORCE RE-DOWNLOAD mode..."
@@ -340,6 +342,7 @@ elif [ "$MODE" == "3" ]; then
         --ignore-existing=false \
         --ignore-size=false \
         --checksum
+    RCLONE_EXIT=$?
 
 else
     echo "Invalid option."
@@ -347,5 +350,12 @@ else
 fi
 
 echo ""
-echo "Done."
+if [ $RCLONE_EXIT -ne 0 ]; then
+  echo "Error: rclone exited with code $RCLONE_EXIT"
+  echo ""
+  echo "Last errors from log:"
+  grep -E "ERROR|CRITICAL" "$LOG_FILE" | tail -5
+else
+  echo "Done."
+fi
 

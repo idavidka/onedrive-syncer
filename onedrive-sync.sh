@@ -28,24 +28,107 @@ if [ ! -d "$DEST" ]; then
     exit 1
 fi
 
+# Interactive remote folder browser
+# Sets INTERACTIVE_PATH to the chosen remote path (empty = root)
+select_remote_folder() {
+  local current_path=""
+  while true; do
+    echo ""
+    if [ -z "$current_path" ]; then
+      echo "  Location: (root)"
+    else
+      echo "  Location: /${current_path}"
+    fi
+    echo ""
+    local dirs=()
+    while IFS= read -r line; do
+      line="${line%/}"
+      [ -n "$line" ] && dirs+=("$line")
+    done < <(rclone lsf --dirs-only "${REMOTE_NAME}:${current_path}" 2>/dev/null)
+    echo "  0 - [Sync this folder]"
+    for i in "${!dirs[@]}"; do
+      printf "  %d - %s\n" "$((i+1))" "${dirs[$i]}"
+    done
+    [ -n "$current_path" ] && echo "  b - [Go back]"
+    echo "  q - [Cancel]"
+    echo ""
+    read -p "Select: " DIR_CHOICE
+    if [[ "$DIR_CHOICE" == "0" ]]; then
+      INTERACTIVE_PATH="$current_path"
+      return 0
+    elif [[ "$DIR_CHOICE" =~ ^[Bb]$ ]] && [ -n "$current_path" ]; then
+      if [[ "$current_path" == */* ]]; then
+        current_path="${current_path%/*}"
+      else
+        current_path=""
+      fi
+    elif [[ "$DIR_CHOICE" =~ ^[Qq]$ ]]; then
+      INTERACTIVE_PATH=""
+      return 1
+    elif [[ "$DIR_CHOICE" =~ ^[0-9]+$ ]] && [ "$DIR_CHOICE" -ge 1 ] && [ "$DIR_CHOICE" -le "${#dirs[@]}" ]; then
+      local selected="${dirs[$((DIR_CHOICE-1))]}"
+      if [ -z "$current_path" ]; then
+        current_path="$selected"
+      else
+        current_path="${current_path}/${selected}"
+      fi
+    else
+      echo "  Invalid choice."
+    fi
+  done
+}
+
+# Build a temporary rclone filter file for the given remote path
+build_interactive_filter() {
+  local path="$1"
+  local tmp_filter="/tmp/rclone-interactive-filter.txt"
+  : > "$tmp_filter"
+  echo "- /Personal Vault/**" >> "$tmp_filter"
+  if [ -n "$path" ]; then
+    local partial="" part
+    local parts
+    IFS='/' read -ra parts <<< "$path"
+    for part in "${parts[@]}"; do
+      if [ -z "$partial" ]; then
+        partial="$part"
+      else
+        partial="${partial}/${part}"
+      fi
+      echo "+ /${partial}/" >> "$tmp_filter"
+    done
+    echo "+ /${path}/**" >> "$tmp_filter"
+  else
+    echo "+ */" >> "$tmp_filter"
+  fi
+  echo "- **" >> "$tmp_filter"
+  echo "$tmp_filter"
+}
+
 # 4. Last run / new run selection
 LAST_RUN_FILE="last-run.conf"
 USE_LAST_RUN=false
+INTERACTIVE_PATH=""
 if [ -f "$LAST_RUN_FILE" ]; then
+  LR_FILTER="" LR_INTERACTIVE_PATH="" LR_STRATEGY="" LR_MODE="" LR_TRANSFERS="" LR_CHECKERS=""
   while IFS='=' read -r key val; do
     val="${val%\"}"
     val="${val#\"}"
     case "$key" in
-      SELECTED_FILTER) LR_FILTER="$val" ;;
-      STRATEGY)        LR_STRATEGY="$val" ;;
-      MODE)            LR_MODE="$val" ;;
-      TRANSFERS)       LR_TRANSFERS="$val" ;;
-      CHECKERS)        LR_CHECKERS="$val" ;;
+      SELECTED_FILTER)  LR_FILTER="$val" ;;
+      INTERACTIVE_PATH) LR_INTERACTIVE_PATH="$val" ;;
+      STRATEGY)         LR_STRATEGY="$val" ;;
+      MODE)             LR_MODE="$val" ;;
+      TRANSFERS)        LR_TRANSFERS="$val" ;;
+      CHECKERS)         LR_CHECKERS="$val" ;;
     esac
   done < "$LAST_RUN_FILE"
   echo ""
   echo "Previous run settings:"
-  echo "  Filter:    ${LR_FILTER:-none}"
+  if [ -n "$LR_INTERACTIVE_PATH" ]; then
+    echo "  Filter:    [Interactive] /${LR_INTERACTIVE_PATH}"
+  else
+    echo "  Filter:    ${LR_FILTER:-none}"
+  fi
   echo "  Strategy:  $LR_STRATEGY"
   echo "  Mode:      $LR_MODE"
   echo "  Transfers: $LR_TRANSFERS"
@@ -54,34 +137,52 @@ if [ -f "$LAST_RUN_FILE" ]; then
   read -p "Use previous settings? [Y/n]: " USE_LAST_INPUT
   if [[ ! "$USE_LAST_INPUT" =~ ^[Nn]$ ]]; then
     USE_LAST_RUN=true
-    SELECTED_FILTER="$LR_FILTER"
+    INTERACTIVE_PATH="$LR_INTERACTIVE_PATH"
     STRATEGY="$LR_STRATEGY"
     MODE="$LR_MODE"
     TRANSFERS="$LR_TRANSFERS"
     CHECKERS="$LR_CHECKERS"
+    if [ -n "$INTERACTIVE_PATH" ]; then
+      SELECTED_FILTER=$(build_interactive_filter "$INTERACTIVE_PATH")
+      echo "Rebuilt interactive filter for: /${INTERACTIVE_PATH:-(root)}"
+    else
+      SELECTED_FILTER="$LR_FILTER"
+    fi
     echo "Using previous settings."
   fi
 fi
 
 if [ "$USE_LAST_RUN" = false ]; then
   echo ""
-  echo "Select filter file (or press Enter for no filter):"
+  echo "Select filter:"
   FILTER_FILES=()
   for f in filter*.txt; do
     [ -f "$f" ] && FILTER_FILES+=("$f")
   done
+  echo "  i - Interactive folder browser"
   for i in "${!FILTER_FILES[@]}"; do
-    echo "$((i+1)) - ${FILTER_FILES[$i]}"
+    echo "  $((i+1)) - ${FILTER_FILES[$i]}"
   done
-  echo "0 - No filter"
+  echo "  0 - No filter"
   read -p "Enter choice [default: 0]: " FILTER_CHOICE
   FILTER_CHOICE=${FILTER_CHOICE:-0}
-  if [[ "$FILTER_CHOICE" =~ ^[1-9][0-9]*$ ]] && [ "$FILTER_CHOICE" -le "${#FILTER_FILES[@]}" ]; then
+  if [[ "$FILTER_CHOICE" =~ ^[Ii]$ ]]; then
+    if select_remote_folder; then
+      SELECTED_FILTER=$(build_interactive_filter "$INTERACTIVE_PATH")
+      echo "Filter built for: /${INTERACTIVE_PATH:-(root)}"
+    else
+      echo "Cancelled. No filter selected."
+      SELECTED_FILTER=""
+      INTERACTIVE_PATH=""
+    fi
+  elif [[ "$FILTER_CHOICE" =~ ^[1-9][0-9]*$ ]] && [ "$FILTER_CHOICE" -le "${#FILTER_FILES[@]}" ]; then
     SELECTED_FILTER="${FILTER_FILES[$((FILTER_CHOICE-1))]}"
+    INTERACTIVE_PATH=""
     echo "Using filter: $SELECTED_FILTER"
   else
     echo "No filter selected."
     SELECTED_FILTER=""
+    INTERACTIVE_PATH=""
   fi
 
   echo ""
@@ -117,6 +218,7 @@ fi
 # Save settings for next run
 {
   echo "SELECTED_FILTER=\"${SELECTED_FILTER}\""
+  echo "INTERACTIVE_PATH=\"${INTERACTIVE_PATH}\""
   echo "STRATEGY=\"${STRATEGY}\""
   echo "MODE=\"${MODE}\""
   echo "TRANSFERS=\"${TRANSFERS}\""

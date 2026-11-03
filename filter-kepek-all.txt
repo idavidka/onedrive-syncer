@@ -1,0 +1,4 @@
+- /Personal Vault/**
++ /Képek/
++ /Képek/**
+- **

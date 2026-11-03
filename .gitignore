@@ -1,5 +1,4 @@
 rclone.log
 last-run.conf
-filter*.txt
 filter-interactive.txt
 menubar-app/vendor/

@@ -1,0 +1,7 @@
+- /Personal Vault/**
++ /Dokumentumok/
++ /Dokumentumok/Családfa/
++ /Dokumentumok/Családfa/Dokumentumok/
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/
++ /Dokumentumok/Családfa/Dokumentumok/Anyakönyvek/**
+- **
